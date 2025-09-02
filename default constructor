@@ -1,0 +1,25 @@
+class std
+{
+	String name = "John";   
+    int age = 24;
+    
+    std(){
+    System.out.println("default constructor");
+    }
+}
+public class todayy {
+      
+    public static void main(String[] args) {
+        
+         std s1 = new std();
+         System.out.println("Name: " + s1.name);
+         System.out.println("Age: " + s1.age);
+    }
+
+}  
+
+
+OUTPUT:
+default constructor
+Name: John
+Age: 24
