@@ -6,14 +6,12 @@ public class Electricbill {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Input old and current meter readings
         System.out.print("Enter old reading: ");
         int oldReading = scanner.nextInt();
 
         System.out.print("Enter current reading: ");
         int currentReading = scanner.nextInt();
 
-        // Calculate units consumed
         int units = currentReading - oldReading;
 
         if (units < 0) {
@@ -40,3 +38,4 @@ public class Electricbill {
         scanner.close();
     }
 }
+
